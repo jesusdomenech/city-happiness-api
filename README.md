@@ -7,6 +7,13 @@
 - Start the server by running `rails s`
 - You can access it at **localhost:3000**
 
+## STARTING THE SERVER
+Puma server listens to 127.0.0.1 and localhost and to accept incoming connestions from other machines such as genymotion/emulators start the server using 
+
+`rails s -b 0.0.0.0`
+
+Once in emulator/genymotion use **10.0.3.2:3000** to connect to the machine
+
 ## Making requests
 All requests towards the APIs endpoints have to contain these headers:
 
